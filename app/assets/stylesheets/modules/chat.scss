@@ -36,7 +36,8 @@
     background-color: #fafafa;
     box-sizing: border-box;
     padding:46px 40px 0;
-    height: calc(100% - 100px - 90px);
+    height: calc(100vh - 190px);
+    overflow: scroll;
     .message {
       .upper-message {
         display: flex;
@@ -78,6 +79,7 @@
       height: 50px;
       padding-right: 10px;
       background-color: white;
+      box-sizing: border-box;
       &__image {
         font-size: 20px;
         line-height: 50px;
